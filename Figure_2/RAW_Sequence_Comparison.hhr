@@ -1,0 +1,750 @@
+Query         WP_010866624.1 DNA-binding protein Alba [Aeropyrum pernix]
+Match_columns 94
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:35:03 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i Ae_Pe.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.1    0.67    0.67    8.1   0.0    9   29-37     24-32  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.07  E-value=0.67  Score=8.15  Aligned_cols=9  Identities=33%  Similarity=0.420  Sum_probs=3.7  Template_Neff=1.000
+
+Q WP_010866624.1   29 LNEEGAPEV   37 (94)
+Q Consensus        29 lneegapev   37 (94)
+                      |...|..|-
+T Consensus        24 lgsnglteg   32 (97)
+T sp|P0AGK4|YHBY   24 LGSNGLTEG   32 (97)
+Confidence            344444443
+
+
+Query         CDP95722.1 Bm9863 [Brugia malayi]
+Match_columns 163
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:35:15 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i Br_Ma.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.2    0.37    0.37   11.0   0.0   21   44-64     53-73  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.16  E-value=0.37  Score=10.96  Aligned_cols=21  Identities=24%  Similarity=0.482  Sum_probs=11.4  Template_Neff=1.000
+
+Q CDP95722.1       44 FEDTNCRMVIFKGVGEATAKC   64 (163)
+Q Consensus        44 fedtncrmvifkgvgeatakc   64 (163)
+                      -||......|...+-..|..|
+T Consensus        53 tedretktliveaivretgac   73 (97)
+T sp|P0AGK4|YHBY   53 TEDRETKTLIVEAIVRETGAC   73 (97)
+Confidence            355555555655555555555
+
+
+Query         CAP29508.1:1-143 hypothetical protein CBG_09988 [Caenorhabditis briggsae AF16]
+Match_columns 143
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:35:25 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i Ca_br_1_143.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.3    0.24    0.24   11.9   0.0   18   59-76     21-38  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.26  E-value=0.24  Score=11.94  Aligned_cols=18  Identities=33%  Similarity=0.523  Sum_probs=11.0  Template_Neff=1.000
+
+Q CAP29508.1:1-1   59 VIYKSTNGATEKAISCVE   76 (143)
+Q Consensus        59 viykstngatekaiscve   76 (143)
+                      |+.-..||-||-...-+|
+T Consensus        21 vvllgsngltegvlaeie   38 (97)
+T sp|P0AGK4|YHBY   21 VVLLGSNGLTEGVLAEIE   38 (97)
+Confidence            455567888876554433
+
+
+Query         RKY63913.1 DNA-binding protein Alba [Candidatus Latescibacteria bacterium]
+Match_columns 93
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:35:34 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i Ca_la_bac.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.6   0.096   0.096   13.3   0.0   20    8-27     21-40  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.60  E-value=0.096  Score=13.35  Aligned_cols=20  Identities=35%  Similarity=0.404  Sum_probs=10.6  Template_Neff=1.000
+
+Q RKY63913.1        8 VIYVGNKPPMNYVLAAITQL   27 (93)
+Q Consensus         8 viyvgnkppmnyvlaaitql   27 (93)
+                      |+..|......-|||-|.|.
+T Consensus        21 vvllgsngltegvlaeieqa   40 (97)
+T sp|P0AGK4|YHBY   21 VVLLGSNGLTEGVLAEIEQA   40 (97)
+Confidence            44455555555566665553
+
+
+Query         VVC33431.1:19-143 DNA/RNA-binding protein Alba-like [Cinara cedri]
+Match_columns 125
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:35:45 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i Ci_Ce_19_143.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.1    0.63    0.63    8.8   0.0    1  110-110    27-27  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.08  E-value=0.63  Score=8.77  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=1.000
+
+Query         ATY61034.1:49-218 DNA RNA-binding Alba [Cordyceps militaris]
+Match_columns 170
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:35:56 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i Co_Mi_49_218.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.4    0.17    0.17   13.1   0.0   14  129-142    49-62  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.36  E-value=0.17  Score=13.13  Aligned_cols=14  Identities=50%  Similarity=0.456  Sum_probs=9.9  Template_Neff=1.000
+
+Q ATY61034.1:49-  129 VLPPTPDRTTKSLR  142 (170)
+Q Consensus       129 vlpptpdrttkslr  142 (170)
+                      |--.|.||.||.|-
+T Consensus        49 vkiatedretktli   62 (97)
+T sp|P0AGK4|YHBY   49 VKIATEDRETKTLI   62 (97)
+Confidence            33467889998874
+
+
+Query         RZB33274.1 archaea-specific DNA-binding protein [Desulfobacteraceae bacterium Eth-SRB1]
+Match_columns 88
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:36:05 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i De_bac.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.3    0.19    0.19   11.6   0.0    3   18-20     33-35  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.32  E-value=0.19  Score=11.63  Aligned_cols=3  Identities=100%  Similarity=1.088  Sum_probs=1.1  Template_Neff=1.000
+
+Q RZB33274.1       18 VLA   20 (88)
+Q Consensus        18 vla   20 (88)
+                      |||
+T Consensus        33 vla   35 (97)
+T sp|P0AGK4|YHBY   33 VLA   35 (97)
+Confidence            333
+
+
+Query         KAE9410662.1:1-161 hypothetical protein BT96DRAFT_778216, partial [Gymnopus androsaceus JB14]
+Match_columns 161
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:36:16 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i Gy_An_1_161.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.2    0.34    0.34   11.2   0.0    8   69-76     62-69  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.18  E-value=0.34  Score=11.18  Aligned_cols=8  Identities=63%  Similarity=0.829  Sum_probs=4.5  Template_Neff=1.000
+
+Q KAE9410662.1:1   69 VVEIIKRE   76 (161)
+Q Consensus        69 vveiikre   76 (161)
+                      +||.|-||
+T Consensus        62 iveaivre   69 (97)
+T sp|P0AGK4|YHBY   62 IVEAIVRE   69 (97)
+Confidence            35666555
+
+
+Query         2IFE_1|Chain A|PROTEIN (TRANSLATION INITIATION FACTOR IF3)|Escherichia coli (562)
+Match_columns 100
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:36:26 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i If3_c.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.2    0.29    0.29   10.8   0.0    1   97-97      6-6   (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.21  E-value=0.29  Score=10.81  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=1.000
+
+Query         KGQ85603.1:30-169 hypothetical protein MEU_04899 [Candida albicans P37005]
+Match_columns 140
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:36:36 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i lavender_2_CaAl_domain.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.1    0.45    0.45   10.1   0.0    5  122-126    77-81  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.13  E-value=0.45  Score=10.10  Aligned_cols=5  Identities=80%  Similarity=1.125  Sum_probs=2.5  Template_Neff=1.000
+
+Q KGQ85603.1:30-  122 VIGKH  126 (140)
+Q Consensus       122 vigkh  126 (140)
+                      ||||-
+T Consensus        77 vigkt   81 (97)
+T sp|P0AGK4|YHBY   77 VIGKT   81 (97)
+Confidence            45553
+
+
+Query         XP_001468603.1:2-119 conserved hypothetical protein [Leishmania infantum JPCM5]
+Match_columns 118
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:36:46 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i Lei_Inf_alba1_2_119.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.1    0.81    0.81    7.6   0.0   16   68-83     36-51  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.05  E-value=0.81  Score=7.56  Aligned_cols=16  Identities=31%  Similarity=0.449  Sum_probs=7.8  Template_Neff=1.000
+
+Q XP_001468603.1   68 AIYNAVNIAEIVKRRI   83 (118)
+Q Consensus        68 aiynavniaeivkrri   83 (118)
+                      -|-.|..--|.+|-.|
+T Consensus        36 eieqalehhelikvki   51 (97)
+T sp|P0AGK4|YHBY   36 EIEQALEHHELIKVKI   51 (97)
+Confidence            3444555455555444
+
+
+Query         AAK81869.1:1-93 unknown [Leishmania infantum]
+Match_columns 93
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:36:55 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i Lei_Inf_alba3_1_93.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.1    0.62    0.62    8.4   0.0    5   35-39     20-24  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.08  E-value=0.62  Score=8.45  Aligned_cols=5  Identities=40%  Similarity=0.979  Sum_probs=2.0  Template_Neff=1.000
+
+Q AAK81869.1:1-9   35 PEVII   39 (93)
+Q Consensus        35 pevii   39 (93)
+                      |-|..
+T Consensus        20 pvvll   24 (97)
+T sp|P0AGK4|YHBY   20 PVVLL   24 (97)
+Confidence            43433
+
+
+Query         CUA78125.1:221-348 hypothetical protein RSOLAG22IIIB_02743 [Rhizoctonia solani]
+Match_columns 128
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:37:05 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i maroon_rhiSo_domain.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.1    0.52    0.52    9.5   0.0    6    8-13     24-29  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.11  E-value=0.52  Score=9.52  Aligned_cols=6  Identities=50%  Similarity=0.938  Sum_probs=2.7  Template_Neff=1.000
+
+Q CUA78125.1:221    8 VGSEGA   13 (128)
+Q Consensus         8 vgsega   13 (128)
+                      .||.|-
+T Consensus        24 lgsngl   29 (97)
+T sp|P0AGK4|YHBY   24 LGSNGL   29 (97)
+Confidence            455443
+
+
+Query         XP_015646669.1:41-144 uncharacterized protein At2g34160 isoform X1 [Oryza sativa Japonica Group]
+Match_columns 104
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:37:15 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i Or_Sa_41_144.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.2    0.38    0.38   10.1   0.0    8   81-88     36-43  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.15  E-value=0.38  Score=10.10  Aligned_cols=8  Identities=50%  Similarity=0.634  Sum_probs=3.3  Template_Neff=1.000
+
+Q XP_015646669.1   81 KIEIVLEK   88 (104)
+Q Consensus        81 kieivlek   88 (104)
+                      .||-.||.
+T Consensus        36 eieqaleh   43 (97)
+T sp|P0AGK4|YHBY   36 EIEQALEH   43 (97)
+Confidence            34444443
+
+
+Query         RLN35084.1:457-569 chloroplast nucleoid DNA-binding protein -like protein [Panicum miliaceum]
+Match_columns 113
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:37:25 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i Pa_Mi_457_569.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.2    0.25    0.25   11.4   0.0   31   21-55     23-53  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.24  E-value=0.25  Score=11.40  Aligned_cols=31  Identities=35%  Similarity=0.462  Sum_probs=16.8  Template_Neff=1.000
+
+Q RLN35084.1:457   21 LLQDKGSDEVVFKAMGRAINKTVMIAELIKRRIVG   55 (113)
+Q Consensus        21 llqdkgsdevvfkamgrainktvmiaelikrrivg   55 (113)
+                      ||...|-.|-|...+..|..    --||||-.|..
+T Consensus        23 llgsngltegvlaeieqale----hhelikvkiat   53 (97)
+T sp|P0AGK4|YHBY   23 LLGSNGLTEGVLAEIEQALE----HHELIKVKIAT   53 (97)
+Confidence            45556666666655444433    34666655543
+
+
+Query         XP_001349383.1:1-114 DNA/RNA-binding protein Alba 1 [Plasmodium falciparum 3D7]
+Match_columns 114
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:37:34 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i PfAlba1_1_114.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.1    0.63    0.63    8.7   0.0    8   48-55     77-84  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.08  E-value=0.63  Score=8.66  Aligned_cols=8  Identities=50%  Similarity=0.845  Sum_probs=3.7  Template_Neff=1.000
+
+Q XP_001349383.1   48 AIGKAVTL   55 (114)
+Q Consensus        48 aigkavtl   55 (114)
+                      .|||..-|
+T Consensus        77 vigktlvl   84 (97)
+T sp|P0AGK4|YHBY   77 VIGKTLVL   84 (97)
+Confidence            35554443
+
+
+Query         XP_001350177.1:9-158 DNA/RNA-binding protein Alba 2 [Plasmodium falciparum 3D7]
+Match_columns 150
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:37:45 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i PfAlba2_9_158.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.1    0.62    0.62    9.1   0.0    4   55-58     11-14  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.08  E-value=0.62  Score=9.07  Aligned_cols=4  Identities=75%  Similarity=1.049  Sum_probs=1.6  Template_Neff=1.000
+
+Q XP_001350177.1   55 AKGL   58 (150)
+Q Consensus        55 akgl   58 (150)
+                      .|||
+T Consensus        11 lkgl   14 (97)
+T sp|P0AGK4|YHBY   11 LKGL   14 (97)
+Confidence            3443
+
+
+Query         XP_001347348.1 DNA/RNA-binding protein Alba 3 [Plasmodium falciparum 3D7]
+Match_columns 107
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:37:55 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i PfAlba3.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.1    0.67    0.67    8.3   0.0   11   42-52     16-26  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.07  E-value=0.67  Score=8.30  Aligned_cols=11  Identities=27%  Similarity=0.706  Sum_probs=6.0  Template_Neff=1.000
+
+Q XP_001347348.1   42 NPFDEVIITGL   52 (107)
+Q Consensus        42 npfdeviitgl   52 (107)
+                      .|...|++-|-
+T Consensus        16 hplkpvvllgs   26 (97)
+T sp|P0AGK4|YHBY   16 HPLKPVVLLGS   26 (97)
+Confidence            45556665553
+
+
+Query         XP_001350189.1:20-118 DNA/RNA-binding protein Alba 4 [Plasmodium falciparum 3D7]
+Match_columns 99
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:38:04 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i PfAlba4.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.1    0.53    0.53    9.1   0.0    1   62-62     51-51  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.10  E-value=0.53  Score=9.06  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=1.000
+
+Query         XP_001349666.2 conserved Plasmodium protein, unknown function [Plasmodium falciparum 3D7]
+Match_columns 227
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:38:18 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i PfAlba5.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.3    0.24    0.24   12.7   0.0   15    9-23     56-70  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.25  E-value=0.24  Score=12.72  Aligned_cols=15  Identities=40%  Similarity=0.616  Sum_probs=9.9  Template_Neff=1.000
+
+Q XP_001349666.2    9 KKTNHVIVENIQKEC   23 (227)
+Q Consensus         9 kktnhviveniqkec   23 (227)
+                      ..|...|||.|-.|.
+T Consensus        56 retktliveaivret   70 (97)
+T sp|P0AGK4|YHBY   56 RETKTLIVEAIVRET   70 (97)
+Confidence            345667888877663
+
+
+Query         XP_001350437.1 DNA/RNA-binding protein, putative [Plasmodium falciparum 3D7]
+Match_columns 96
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:38:27 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i PfAlba6.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.8   0.071   0.071   14.1   0.0   28   21-48     55-82  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.79  E-value=0.071  Score=14.09  Aligned_cols=28  Identities=25%  Similarity=0.418  Sum_probs=15.4  Template_Neff=1.000
+
+Q XP_001350437.1   21 SRDSIHKYVEECLHKLKTGNVKIIGRQY   48 (96)
+Q Consensus        21 srdsihkyveeclhklktgnvkiigrqy   48 (96)
+                      .|+.-.-.||.....--.-||.+||...
+T Consensus        55 dretktliveaivretgacnvqvigktl   82 (97)
+T sp|P0AGK4|YHBY   55 DRETKTLIVEAIVRETGACNVQVIGKTL   82 (97)
+Confidence            3333333455555555556777777643
+
+
+Query         KAG1944584.1:31-154 Alba DNA/RNA-binding protein [Pimephales promelas]
+Match_columns 124
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:38:37 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i Pi_Pr_31_154.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.1    0.41    0.41   10.2   0.0   37   37-73     16-59  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.14  E-value=0.41  Score=10.19  Aligned_cols=37  Identities=32%  Similarity=0.355  Sum_probs=20.3  Template_Neff=1.000
+
+Q KAG1944584.1:3   37 DGLRQVVFSGSGRAV-------TKTITCAEITKRKIAGLHQITK   73 (124)
+Q Consensus        37 dglrqvvfsgsgrav-------tktitcaeitkrkiaglhqitk   73 (124)
+                      ..|..||.-||..-.       .....--|..|-|||--..-||
+T Consensus        16 hplkpvvllgsngltegvlaeieqalehhelikvkiatedretk   59 (97)
+T sp|P0AGK4|YHBY   16 HPLKPVVLLGSNGLTEGVLAEIEQALEHHELIKVKIATEDRETK   59 (97)
+Confidence            346778887775421       1222334566777776554444
+
+
+Query         NP_009726.3 ribonuclease P/MRP protein subunit POP7 [Saccharomyces cerevisiae S288C]
+Match_columns 140
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:38:47 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i Pop7_6W6v_full.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.1    0.44    0.44   10.2   0.0   12   56-67     68-79  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.13  E-value=0.44  Score=10.18  Aligned_cols=12  Identities=33%  Similarity=0.673  Sum_probs=6.0  Template_Neff=1.000
+
+Q NP_009726.3      56 HKQGSSYVAVLG   67 (140)
+Q Consensus        56 hkqgssyvavlg   67 (140)
+                      ...|..-|-|+|
+T Consensus        68 retgacnvqvig   79 (97)
+T sp|P0AGK4|YHBY   68 RETGACNVQVIG   79 (97)
+Confidence            344555555544
+
+
+Query         CUA76030.1:1-164 hypothetical protein RSOLAG22IIIB_02036 [Rhizoctonia solani]
+Match_columns 164
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:38:59 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i Rh_So_1_164.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.2    0.37    0.37   11.0   0.0    9   37-45     16-24  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.16  E-value=0.37  Score=10.97  Aligned_cols=9  Identities=44%  Similarity=0.929  Sum_probs=5.7  Template_Neff=1.000
+
+Q CUA76030.1:1-1   37 NPTRPLVLH   45 (164)
+Q Consensus        37 nptrplvlh   45 (164)
+                      +|-.|.||-
+T Consensus        16 hplkpvvll   24 (97)
+T sp|P0AGK4|YHBY   16 HPLKPVVLL   24 (97)
+Confidence            566777764
+
+
+Query         NP_005828.2 ribonuclease P protein subunit p20 [Homo sapiens]
+Match_columns 140
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:39:10 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i Rpp20_sapiens_full.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.1    0.72    0.72    8.4   0.0    1    1-1       1-1   (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.07  E-value=0.72  Score=8.40  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=1.000
+
+Query         NP_060263.2 ribonuclease P protein subunit p25 [Homo sapiens]
+Match_columns 199
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:39:22 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i rpp25_sapiens_full.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.2    0.25    0.25   12.4   0.0   14   97-110    83-96  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.24  E-value=0.25  Score=12.39  Aligned_cols=14  Identities=43%  Similarity=0.601  Sum_probs=6.5  Template_Neff=1.000
+
+Q NP_060263.2      97 LRYRSVREVWQSLP  110 (199)
+Q Consensus        97 lryrsvrevwqslp  110 (199)
+                      .-||...|---|||
+T Consensus        83 vlyrptkerkislp   96 (97)
+T sp|P0AGK4|YHBY   83 VLYRPTKERKISLP   96 (97)
+Confidence            34555555444443
+
+
+Query         NP_011544.1 ribonuclease P/MRP protein subunit POP6 [Saccharomyces cerevisiae S288C]
+Match_columns 158
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:39:33 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i Sac_Cer_pop6_full.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.1    0.79    0.79    8.1   0.0   11   75-85     18-28  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.06  E-value=0.79  Score=8.08  Aligned_cols=11  Identities=45%  Similarity=0.474  Sum_probs=5.8  Template_Neff=1.000
+
+Q NP_011544.1      75 LQQVVCIFSYG   85 (158)
+Q Consensus        75 lqqvvcifsyg   85 (158)
+                      +..||..-|.|
+T Consensus        18 lkpvvllgsng   28 (97)
+T sp|P0AGK4|YHBY   18 LKPVVLLGSNG   28 (97)
+Confidence            44555555555
+
+
+Query         WP_069284532.1 DNA-binding protein Alba [Sulfolobus sp. A20]
+Match_columns 97
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:39:42 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i Sa_So.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.6   0.094   0.094   13.5   0.0   12    8-19     72-83  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.61  E-value=0.094  Score=13.48  Aligned_cols=12  Identities=50%  Similarity=0.636  Sum_probs=8.0  Template_Neff=1.000
+
+Q WP_069284532.1    8 PSNVVLIGKKPV   19 (97)
+Q Consensus         8 psnvvligkkpv   19 (97)
+                      ..||-.|||.-|
+T Consensus        72 acnvqvigktlv   83 (97)
+T sp|P0AGK4|YHBY   72 ACNVQVIGKTLV   83 (97)
+Confidence            357778887544
+
+
+Query         pdb|2EK0|A Chain A, Stage V sporulation protein S (SpoVS) related protein
+Match_columns 90
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:39:51 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i SpoV.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   2.7   0.017   0.017   17.1   0.0   20   20-39     64-83  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=2.71  E-value=0.017  Score=17.13  Aligned_cols=20  Identities=40%  Similarity=0.622  Sum_probs=14.5  Template_Neff=1.000
+
+Q pdb|2EK0|A       20 AAMLRTKGEVEVQAIGPQAV   39 (90)
+Q Consensus        20 aamlrtkgevevqaigpqav   39 (90)
+                      -|..|..|...||.||..-|
+T Consensus        64 eaivretgacnvqvigktlv   83 (97)
+T sp|P0AGK4|YHBY   64 EAIVRETGACNVQVIGKTLV   83 (97)
+Confidence            45678888888888886543
+
+
+Query         XP_024507562.1:6-131 DNA/RNA-binding protein Alba-like family-containing protein [Strongyloides ratti]
+Match_columns 126
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:40:01 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i St_Ra_6_131.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.1    0.44    0.44   10.0   0.0    1   53-53     73-73  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.13  E-value=0.44  Score=9.98  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=1.000
+
+Query         PVC57840.1 hypothetical protein MACJ_00001993 [Theileria orientalis]
+Match_columns 237
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:40:15 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i theileria_FullLength.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.1    0.67    0.67    9.5   0.0   54  166-221    36-93  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.08  E-value=0.67  Score=9.46  Aligned_cols=54  Identities=30%  Similarity=0.422  Sum_probs=24.8  Template_Neff=1.000
+
+Q PVC57840.1      166 ALEQELK--RLFDVEISTDTIHSVDDTWSFEGNVNDD-FGNVDLMDDSM-LQTAPKERFV  221 (237)
+Q Consensus       166 aleqelk--rlfdveistdtihsvddtwsfegnvndd-fgnvdlmddsm-lqtapkerfv  221 (237)
+                      .+||.|.  .|..|.|.|..-.  ..|.-.|.-|... --||....... |-...|||-+
+T Consensus        36 eieqalehhelikvkiatedre--tktliveaivretgacnvqvigktlvlyrptkerki   93 (97)
+T sp|P0AGK4|YHBY   36 EIEQALEHHELIKVKIATEDRE--TKTLIVEAIVRETGACNVQVIGKTLVLYRPTKERKI   93 (97)
+Confidence            4555543  5777877765321  2334444444321 23454444433 2233355544
+
+
+Query         XP_002370656.1:1-120 alba 2 [Toxoplasma gondii ME49]
+Match_columns 120
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:40:25 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i tox_go_1_120.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.1     0.7     0.7    8.3   0.0   22   60-81     59-80  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.07  E-value=0.7  Score=8.29  Aligned_cols=22  Identities=27%  Similarity=0.336  Sum_probs=8.6  Template_Neff=1.000
+
+Q XP_002370656.1   60 KPACDEVIITGLGMATKTAIGA   81 (120)
+Q Consensus        60 kpacdeviitglgmatktaiga   81 (120)
+                      |.-.-|.|+.--|...-..||-
+T Consensus        59 ktliveaivretgacnvqvigk   80 (97)
+T sp|P0AGK4|YHBY   59 KTLIVEAIVRETGACNVQVIGK   80 (97)
+Confidence            3333344444444333333443
+
+
+Query         XP_828521.1 hypothetical protein, conserved [Trypanosoma brucei brucei TREU927]
+Match_columns 117
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:40:34 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i Tr_Bru.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi   0.8   0.068   0.068   14.6   0.0   18   57-74     39-56  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=0.82  E-value=0.068  Score=14.60  Aligned_cols=18  Identities=39%  Similarity=0.510  Sum_probs=11.8  Template_Neff=1.000
+
+Q XP_828521.1      57 EILKNQGLIDVKKITTSR   74 (117)
+Q Consensus        57 eilknqglidvkkittsr   74 (117)
+                      ..|....||.||--|..|
+T Consensus        39 qalehhelikvkiatedr   56 (97)
+T sp|P0AGK4|YHBY   39 QALEHHELIKVKIATEDR   56 (97)
+Confidence            346677788887655544
+
+
+Query         sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Match_columns 97
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 1
+Date          Thu Feb 10 13:40:44 2022
+Command       ../../HHsuite/hh-suite/bin/hhalign -i Yhby_Ecoli.fasta -t Yhby_Ecoli.fasta 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P0AGK4|YHBY_ECOLI RNA-bindi 100.0 1.1E-67 1.1E-67  345.2   0.0   97    1-97      1-97  (97)
+
+No 1
+>sp|P0AGK4|YHBY_ECOLI RNA-binding protein YhbY OS=Escherichia coli (strain K12) OX=83333 GN=yhbY PE=1 SV=1
+Probab=100.00  E-value=1.1e-67  Score=345.22  Aligned_cols=97  Identities=100%  Similarity=1.344  Sum_probs=96.6  Template_Neff=1.000
+
+Q sp|P0AGK4|YHBY    1 MNLSTKQKQHLKGLAHPLKPVVLLGSNGLTEGVLAEIEQALEHHELIKVKIATEDRETKTLIVEAIVRETGACNVQVIGK   80 (97)
+Q Consensus         1 mnlstkqkqhlkglahplkpvvllgsngltegvlaeieqalehhelikvkiatedretktliveaivretgacnvqvigk   80 (97)
+                      |||||||||||||||||+|||||+||||+||||+|||||||||||+||||||||||||||||||||||||||||||||||
+T Consensus         1 mnlstkqkqhlkglahplkpvvllgsngltegvlaeieqalehhelikvkiatedretktliveaivretgacnvqvigk   80 (97)
+T sp|P0AGK4|YHBY    1 MNLSTKQKQHLKGLAHPLKPVVLLGSNGLTEGVLAEIEQALEHHELIKVKIATEDRETKTLIVEAIVRETGACNVQVIGK   80 (97)
+Confidence            89999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|P0AGK4|YHBY   81 TLVLYRPTKERKISLPR   97 (97)
+Q Consensus        81 tlvlyrptkerkislpr   97 (97)
+                      |||||||||||||||||
+T Consensus        81 tlvlyrptkerkislpr   97 (97)
+T sp|P0AGK4|YHBY   81 TLVLYRPTKERKISLPR   97 (97)
+Confidence            99999999999999997
+
+
