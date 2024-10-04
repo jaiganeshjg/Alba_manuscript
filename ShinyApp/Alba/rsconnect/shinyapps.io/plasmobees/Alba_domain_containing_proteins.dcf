@@ -1,0 +1,13 @@
+name: Alba_domain_containing_proteins
+title: Alba_domain_containing_proteins
+username:
+account: plasmobees
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7875884
+bundleId: 6627818
+url: https://plasmobees.shinyapps.io/Alba_domain_containing_proteins/
+when: 1670862824.77302
+lastSyncTime: 1670862824.77306
+asMultiple: FALSE
+asStatic: FALSE
