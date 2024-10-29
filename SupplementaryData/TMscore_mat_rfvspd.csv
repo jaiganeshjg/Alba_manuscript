@@ -1,0 +1,6 @@
+,RF *S.solfataricus* Alba,RF *S.cerevisiae* Pop6,RF *S.cerevisiae* Pop7,RF *H.sapiens* Rpp20,RF *H.sapiens* Rpp25
+2BKY *S.solfataricus* Alba,0.943,0.7766,0.7892,0.8705,0.7963
+3IAB_A *S.cerevisiae* Pop6,0.5078,0.9619,0.4945,0.5177,0.6209
+3IAB_B *S.cerevisiae* Pop7,0.684,0.674,0.9277,0.7976,0.6953
+6CWX_A *H.sapiens* Rpp20,0.7466,0.6697,0.7372,0.8517,0.6985
+6CWX_B *H.sapiens* Rpp25,0.6472,0.7016,0.6257,0.6793,0.891
